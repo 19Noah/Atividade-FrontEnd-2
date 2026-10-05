@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Linktree</title>
+    <!-- Importando o Tailwind CSS diretamente via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-white min-h-screen flex flex-col items-center justify-center p-4">
+
+    <!-- Card Principal do Linktree -->
+    <main class="w-full max-w-md bg-slate-800 rounded-2xl p-6 shadow-2xl border border-slate-700 text-center">
+        
+        <!-- Foto de Perfil / Avatar -->
+        <div class="mb-4">
+            <img src="https://api.dicebear.com/7.x/bottts/svg?seed=noah" alt="Foto de Perfil" class="w-24 h-24 mx-auto rounded-full bg-slate-700 p-2 border-2 border-emerald-400">
+        </div>
+
+        <!-- Nome e Bio -->
+        <h1 class="text-2xl font-bold text-slate-100">Meu Perfil</h1>
+        <p class="text-slate-400 text-sm mt-1 mb-6">Desenvolvimento Web & Projetos</p>
+
+        <!-- Lista de Links -->
+        <div class="space-y-4">
+            
+            <a href="https://github.com" target="_blank" class="block w-full py-3 px-4 bg-slate-700 hover:bg-emerald-600 font-semibold rounded-xl transition duration-300 shadow-md transform hover:-translate-y-1">
+                🖥️ Meu GitHub
+            </a>
+
+            <a href="https://linkedin.com" target="_blank" class="block w-full py-3 px-4 bg-slate-700 hover:bg-emerald-600 font-semibold rounded-xl transition duration-300 shadow-md transform hover:-translate-y-1">
+                💼 LinkedIn
+            </a>
+
+            <a href="mailto:email@exemplo.com" class="block w-full py-3 px-4 bg-slate-700 hover:bg-emerald-600 font-semibold rounded-xl transition duration-300 shadow-md transform hover:-translate-y-1">
+                ✉️ Entre em Contato
+            </a>
+
+            <a href="https://instagram.com" target="_blank" class="block w-full py-3 px-4 bg-slate-700 hover:bg-emerald-600 font-semibold rounded-xl transition duration-300 shadow-md transform hover:-translate-y-1">
+                📸 Instagram
+            </a>
+
+        </div>
+
+        <!-- Rodapé -->
+        <footer class="mt-8 text-xs text-slate-500">
+            © 2026 • Desenvolvido com Tailwind CSS
+        </footer>
+
+    </main>
+
+</body>
+</html>
